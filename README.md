@@ -3,7 +3,7 @@ Simple tool to convert SnpEff annotated VCFs to MAF files to be used with maftoo
 
 ## Usage
 
-```
+```bash
 # Simple
 python snpeffToMaf.py input.vcf/input.vcf.gz
 
@@ -20,7 +20,7 @@ python snpeffToMaf.py input.vcf/input.vcf.gz
 
 Loading the maf file might require reclassifying some of the annotations. Here's how you can do that:
 
-```
+```R
 process_maf <- function(file) {
   # Read the MAF file
   maf_df <- read.delim(file, comment.char = "#")
