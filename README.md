@@ -8,12 +8,12 @@ Simple tool to convert SnpEff annotated VCFs to MAF files to be used with maftoo
 python snpeffToMaf.py input.vcf/input.vcf.gz
 
 # Additional parameters:
--h, --help            show this help message and exit
--o OUTPUT, --output OUTPUT  Optional output MAF file
--minDP MINDP          Minimum depth (default: 0)
--minAF MINAF          Minimum allele frequency (default: 0)
---build BUILD         NCBI Build (default: GRCh38)
---filterPASS          Filter for PASS (default: True)
+# -h, --help            show this help message and exit
+# -o OUTPUT, --output OUTPUT  Optional output MAF file
+# -minDP MINDP          Minimum depth (default: 0)
+# -minAF MINAF          Minimum allele frequency (default: 0)
+# --build BUILD         NCBI Build (default: GRCh38)
+# --filterPASS          Filter for PASS (default: True)
 ```
 
 ## Loading MAF output 
