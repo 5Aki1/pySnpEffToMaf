@@ -47,5 +47,5 @@ process_maf <- function(file) {
 "output.maf" |>
   process_maf() |>
   read.maf() |>
-  plotmafSummary(, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE, titvRaw = FALSE, top = 20)
+  plotmafSummary(rmOutlier = TRUE, addStat = 'median', dashboard = TRUE, titvRaw = FALSE, top = 20)
 ```
